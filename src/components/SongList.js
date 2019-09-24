@@ -3,7 +3,7 @@ import React from 'react';
   const SongList = (props) => {
     const options = props.songs.map((song, index) => {
       return <li value={index} key={index}>
-        {song['im:name'].label}
+        {song['im:artist'].label}
         </li>
     })
 
@@ -12,7 +12,7 @@ import React from 'react';
 
     return (
         <ul>
-          <li disabled value="default">Choose Song</li>
+          <li></li>
           {options}
         </ul>
     )
