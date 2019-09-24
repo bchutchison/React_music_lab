@@ -25,7 +25,7 @@ import SongDetail from '../components/SongDetail';
   render() {
     return (
       <div>
-        <h2>Container Header</h2>
+        <h1>Chart Hits</h1>
         <SongList songs={this.state.songs}/>
         <SongDetail/>
       </div>

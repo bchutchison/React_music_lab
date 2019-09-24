@@ -1,0 +1,26 @@
+.object-box {
+  float:left;
+  display: inline-block;
+  width: 450px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  background-color: lightblue;
+  border-radius: 6px 6px;
+  box-shadow: 5px 5px;
+}
+
+.image-box {
+  float:left;
+  display: inline;
+  width: 30%;
+  padding-top: 20px;
+}
+
+.text-box {
+  float: top;
+  float: right;
+  display: inline;
+  width: 50%;
+  height: 250px;
+}
