@@ -1,20 +1,21 @@
 import React from 'react';
+import SongDetail from './SongDetail.js';
 
   const SongList = (props) => {
-    const options = props.songs.map((song, index) => {
-      return <li value={index} key={index}>
-        {song['im:artist'].label}
-        </li>
+    const songNode = props.songs.map((song, index) => {
+      return (
+      <SongDetail key={index} artist={song['im:artist'].label}>
+        </SongDetail>
+        )
     })
 
 
 
 
     return (
-        <ul>
-          <li></li>
-          {options}
-        </ul>
+        <>
+          {songNode}
+        </>
     )
 
   }

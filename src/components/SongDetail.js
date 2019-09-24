@@ -1,9 +1,12 @@
 import React from 'react';
 
-const SongDetail = () => {
+const SongDetail = (props) => {
 
 return (
-  <h4>Song Detail</h4>
+  <div>
+  <hr></hr>
+  <h2>{props.artist}</h2>
+  </div>
 )
 }
 
